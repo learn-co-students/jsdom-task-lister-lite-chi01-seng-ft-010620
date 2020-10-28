@@ -13,7 +13,7 @@ const dropdown = document.getElementById('importance-dropdown');
 
 // this function accepts an importance value as a string (ie "High", "Medium" || "Low")
 // then returns a color that represents that importance level
-const setStyle = (importanceValue) => {
+const setStyle = importanceValue => {
   // declare color variable so it is available within the scope of the whole function
   let color;
   // choose a color based on the importance value from the form
